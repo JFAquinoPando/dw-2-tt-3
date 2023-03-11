@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formulario de registro</h3>
+    <form action="./recibir.php" method="post">
+        <div>
+            <label style="background-color: brown;" for="nombre">Nombre
+            </label>
+            <input type="text" name="nombre" placeholder="Ej. Juan" id="nombre" value="Jose">
+        </div>
+        <div>
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha" id="fecha" value="2020-12-20">
+        </div>
+        <div>
+            <label for="color">Color favorito (Texto):</label>
+            <input type="color" name="colorFav" id="color">
+        </div>
+        <div>
+            <label for="colorF">Color favorito (Fondo):</label>
+            <input type="color" name="colorFav2" id="colorF">
+        </div>
+        <input type="submit" value="Enviar datos">
+    </form>
+</body>
+</html>
